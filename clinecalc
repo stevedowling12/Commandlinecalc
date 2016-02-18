@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+// get argument values	
+var op = process.argv[2],
+  num1 = +process.argv[3],
+  num2 = +process.argv[4];
+
+
+if (op == "add") {
+	console.log(num1 + num2)
+}
+
+if (op == "sub") {
+	console.log(num1 - num2)
+}
+
+if (op == "mult") {
+	console.log(num1 * num2)
+}
+
+if (op == "div") {
+	console.log(num1 / num2)
+}
